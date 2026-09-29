@@ -1,10 +1,10 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+The camera stays in place while the Cat moves, instead of following it. This is because the Camera is no longer a child of the Cat so it no longer follows its movement or rotation.
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+https://lapizz.itch.io/w1-inclass-gdim31
 
 ## Open-Source Assets
 ### W1
