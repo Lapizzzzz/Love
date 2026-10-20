@@ -36,6 +36,14 @@ A class is like a blueprint for a house. The blueprint describes what a house ca
 
 The balls get extremely bright because their color values are multiplied by 1.5 each time they collide above the speed threshold. The values keep increasing without a limit and can go above 1, which makes the balls look very bright.
 
+### W4
+
+Table #: 3
+
+1. I added Rigidbodies to the Cat and SoccerBall so they can move with physics. Their colliders have Is Trigger unchecked so they can collide with other objects. I checked Is Trigger on the Goal so the ball can pass through it and still be detected. The Goal does not need a Rigidbody because it stays in place.
+
+2. At first, the cat's collider was too large. I reduced its radius and height and adjusted its center to fit the cat better. After that, the cat could move and kick the ball without errors.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
