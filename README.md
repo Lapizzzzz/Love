@@ -46,7 +46,7 @@ Table #: 3
 
 ### W5
 
-I used a Transform variable for the deer's target so I could assign it in the Inspector. In Start(), I used GetComponent to get the NavMeshAgent, then called SetDestination with the target's position. I set the red mushroom as the target and tested that the deer moved toward it.
+We agreed to use a Transform variable for the deer’s target so we could assign it in the Inspector. In Start(), we would use GetComponent to get the NavMeshAgent, then call SetDestination with the target’s position. We chose the red mushroom as the target to test whether the deer moved correctly.
 
 ## Open-Source Assets
 ### W1
