@@ -44,6 +44,10 @@ Table #: 3
 
 2. At first, the cat's collider was too large. I reduced its radius and height and adjusted its center to fit the cat better. After that, the cat could move and kick the ball without errors.
 
+### W5
+
+I used a Transform variable for the deer's target so I could assign it in the Inspector. In Start(), I used GetComponent to get the NavMeshAgent, then called SetDestination with the target's position. I set the red mushroom as the target and tested that the deer moved toward it.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
