@@ -48,6 +48,19 @@ Table #: 3
 
 We agreed to use a Transform variable for the deer’s target so we could assign it in the Inspector. In Start(), we would use GetComponent to get the NavMeshAgent, then call SetDestination with the target’s position. We chose the red mushroom as the target to test whether the deer moved correctly.
 
+### W7
+
+#### Activity 1:
+
+For Activity 1, I worked on the Unity Engine category.
+[Resource document](https://docs.google.com/document/d/1aeLK5I-99IDjuatIuVXIrAsnugJpk2Gnpb_A2gVelQQ/edit)
+
+#### Activity 2:
+
+For Activity 2, I made the bats chase the cat when nearby and stop when far away. They display random messages when they reach the cat, with a timer between messages.
+
+BatW6 needs a speed value, the cat's Transform, and a bool to track whether it is chasing. It uses Unity's Update() to move toward the cat while chasing. The public methods StartChasing() and StopChasing() turn chasing on and off.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
