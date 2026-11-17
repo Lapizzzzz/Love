@@ -61,6 +61,10 @@ For Activity 2, I made the bats chase the cat when nearby and stop when far away
 
 BatW6 needs a speed value, the cat's Transform, and a bool to track whether it is chasing. It uses Unity's Update() to move toward the cat while chasing. The public methods StartChasing() and StopChasing() turn chasing on and off.
 
+### W8
+
+In Step 2, the code used Vector3.forward, which always points in the world's forward direction. The muskrat kept moving in that direction even after turning. I changed it to transform.forward so it moves in the direction it is facing.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
